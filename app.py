@@ -5,6 +5,8 @@ from docx.shared import Pt
 from docx.enum.text import WD_LINE_SPACING
 from io import BytesIO
 from openai import OpenAI
+from dotenv import load_dotenv
+import os
 
 def load_docx(file):
     """Load a docx file into a Document object"""
@@ -83,7 +85,8 @@ def save_docx(doc):
 
 def process_job_description(resume_json, job_description, model="gpt-3.5-turbo-0125"):
     """Process job description with OpenAI API and get enhanced resume content"""
-    keymain = ""
+    load_dotenv()
+    keymain = os.getenv("API_KEY")
     client = OpenAI(api_key=keymain)
     
     system_prompt = """
