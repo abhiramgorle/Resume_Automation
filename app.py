@@ -83,7 +83,7 @@ def save_docx(doc):
 
 def process_job_description(resume_json, job_description, model="gpt-3.5-turbo-0125"):
     """Process job description with OpenAI API and get enhanced resume content"""
-    keymain = "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"
+    keymain = ""
     client = OpenAI(api_key=keymain)
     
     system_prompt = """
