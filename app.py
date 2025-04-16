@@ -90,9 +90,9 @@ def process_job_description(resume_json, job_description, model="gpt-3.5-turbo-0
     client = OpenAI(api_key=keymain)
     
     system_prompt = """
-    You are a resume optimization assistant. Extract keywords from job descriptions and 
-    enhance resume bullet points to match job requirements. Focus on metrics, actions, 
-    and relevant skills. Return JSON only.
+    You are a resume optimization assistant. Your task is to extract relevant keywords, skills, technologies, and role responsibilities 
+    from the job description. Enhance the candidate's resume bullet points to closely align with these requirements. Prioritize quantifiable results, 
+    action verbs, and technical keywords to maximize ATS (Applicant Tracking System) compatibility. Return output in valid JSON format only.
     """
     
     user_prompt = f"""
@@ -103,10 +103,15 @@ def process_job_description(resume_json, job_description, model="gpt-3.5-turbo-0
     {json.dumps(resume_json)}
     
     INSTRUCTIONS:
-    1. Extract key skills and terms from the job description
-    2. Modify bullet points to incorporate these terms, Add any kind of technology that you think is valid for the role and that is needed for the job description
-    3. Add/enhance metrics where possible
-    4. Return only valid JSON in this format: 
+    1. Carefully extract key responsibilities, required skills, technologies, and qualifications from the job description.
+2. Modify each resume bullet point to:
+   - Use relevant keywords and phrases from the job description.
+   - Include strong action verbs and measurable outcomes (use numbers, percentages, timeframes, etc.).
+   - Insert or replace with relevant tools, frameworks, platforms, and languages mentioned in the job posting—or those that are commonly used in such roles.
+3. Add **1–2 new bullet points per section** if necessary, especially to include critical technologies or achievements that would significantly increase ATS relevance.
+4. Keep each bullet point concise (1–2 lines max), focused on impact and results.
+5. Do not alter the original section headers, just enhance the bullet content.
+6. Output updated bullet points as JSON, keeping the structure identical to the input. Return only valid JSON in this format: 
        {{
          "experience": [
            {{"role_name": ["bullet_point1", "bullet_point2", ...]}},
@@ -117,6 +122,7 @@ def process_job_description(resume_json, job_description, model="gpt-3.5-turbo-0
            ...
          ]
        }}
+       Goal: Maximize ATS score by aligning resume content with the job description while preserving professional tone and formatting.
     """
     
     try:
