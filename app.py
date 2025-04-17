@@ -334,17 +334,210 @@ def main():
     "**Database Systems:** PostgreSQL, MySQL, Relational databases, Distributed query systems",
     "**Development Tools:** Git, Docker, Jenkins, CI/CD pipelines",
     "**Operating Systems & Working Environment:** Windows, Linux, Ubuntu",
-    "**Image Processing:** Computer Vision applications, Image Analysis algorithms, AI-powered imaging solutions",
+    "**AI & ML:** Experience with Machine Learning concepts, Computer Graphics integration, Data Flow visualization, Computer Vision applications, Image Analysis algorithms, AI-powered imaging solutions",
     "**Additional Skills:** Data mining, Customer-focused UX design, Complexity analysis, Optimization"
+    
+  ]
+  }
+    data_dev_resume = software_dev_resume
+    software_testing_resume = {
+  "experience": [
+      {
+      " QA Automation Intern | Medha Foundation | Jul, 2022 - Nov, 2022": [
+        "Architected a comprehensive end-to-end Software Testing framework using Java and Selenium WebDriver, leveraging bug tracking tools to identify, document, and track defects in software, reducing regression issues by 50% ",
+        "Collaborated with cross-functional teams (development, product, business) to understand application requirements and use cases, ensuring high-quality assurance standards ",
+        "Participated in daily standups and sprint meetings while integrating automated tests into CI/CD pipelines with Jenkins, implementing quality gates that identified 20+ potential issues before production ",
+        "Analyzed and resolved basic issues independently, demonstrating strong critical thinking and problem-solving abilities",
+        "Developed cross-browser compatibility tests that ensured consistent user experience across platforms, eliminating 90% of platform specific bugs. "
+      ]
+    },
+    {
+      "QA Intern |AlcoveX Product Studio | May, 2023 - Jul, 2023": [
+        "Developed a comprehensive Software Testing automation framework using Playwright and Pytest, utilizing automation tools to track, analyze, and document 50+ critical bugs, improving quality assurance processes ",
+        "Created detailed test plans for cross-platform functionality testing, implementing risk-based prioritization that ensured 100% coverage of high-impact features ",
+        "stablished streamlined bug reporting workflows that facilitated clear communication between QA, product, and development teams, reducing issue resolution time by 35% ",
+        "Built performance testing harnesses that identified system bottlenecks under high load conditions, improving application reliability by 30% "
+      ]
+    },
+    {
+      "Software Developer | University of Florida | Nov, 2024 - Present": [
+        "Engineered robust infrastructure for educational platform using Python and ReactJS within an agile organization, implementing secure database queries serving 5,000+ concurrent users",
+        "Built automated ETL pipelines with Python that integrate with business management systems, improving data processing efficiency by 35% and enabling seamless data flow",
+        "Developed reusable backend services implementing agile methodologies for data protection and user identity management in a product-driven environment",
+        "Collaborated with cross-functional teams to design scalable database architecture using PostgreSQL, creating accessible educational resources that improved EEO compliance."
+      ]
+    },
+    
+    
+  ],
+  "projects": [
+    {
+      "G-Community: Business Networking Platform for College Entrepreneurs": [
+        "Architected and developed a reusable backend infrastructure for business management platform supporting 15,000+ active users",
+        "Engineered a robust real-time communication system implementing MySQL and database queries for user identity management",
+        "Integrated with Slack for notifications and business systems to create seamless information flow between sales and operations."
+      ]
+    },
+    {
+      "SAAS Automation Builder | Personal Project": [
+        "Achieved 95% test coverage through systematic functional, integration, and performance testing methodologies",
+        "Implemented testing frameworks that simulated high-volume API interactions to identify and resolve performance bottlenecks",
+        "Utilized Agile methodologies to manage project development while maintaining high standards for code quality and test."
+      ]}
+      
+      ],
+  "skills":[
+    "**Programming Languages & Development:** Python, C++, Java, JavaScript, SQL, PL/SQL, HTML, CSS, Node.JS, React.JS, Angular, NextJS, Postman, Flask, Firebase, JQuery, Spring Framework,",
+    "**Testing & QA Skills:** Software Testing, JIRA, Manual Testing, Test Case Design, Test Plans, Quality Assurance Methodologies, Regression Testing, Performance Testing, Automated Testing, Bug Tracking, Test Case Design, ADO, Agile, Scrum ",
+    "**Automation Tools:** Selenium WebDriver, TestNG, Playwright, Pytest, Katalon Studio (familiar)",
+    "**Databases:** MySQL, Oracle, SQL Server, PostgreSQL",
+    "**Infrastructure Technologies:** Linux, Docker, AWS (Amazon Web Services), CI/CD pipelines "
     
   ]
   
   }
-    data_dev_resume = software_dev_resume
-    full_stack_resume = software_dev_resume
-    software_testing_resume = software_dev_resume
+    full_stack_resume = {
+  "experience": [
+    {
+      "Software Developer | University of Florida | Nov, 2024 - Present": [
+        "Architected real-time data visualization dashboards using React.JS with D3.js integration, implementing WebSocket for live data flow between frontend and backend systems",
+        "Designed and optimized high-throughput Flask REST APIs handling 50k+ transactions/sec, implementing Redis caching and database management techniques to reduce latency by 40% ",
+        "Developed reusable backend services implementing agile methodologies for data protection and user identity management in a product-driven environment",
+        "Created SQL Server and Oracle database integration tests using SQL that verified data synchronization between multiple systems, ensuring consistent information availability."
+      ]
+    },
+    {
+      "Full Stack Trainer| Elite Solutions | Jan, 2024 - May, 2024": [
+        "Educated 5000+ students on full stack development including React.JS, Node.JS, and data visualization techniques, achieving a 95% course completion rate ",
+        "Designed comprehensive avatar-based interactive learning platform, combining AI and machine learning concepts with frontend development principles ",
+        "Developed 100+ project-based training modules focusing on user-generated content systems and real-time data flow visualization. "
+      ]
+    },
+    {
+      "Software Engineer Intern | AlcoveX Product Studio | Jun, 2023 - Nov, 2023": [
+        "Designed and developed backend systems using agile methodologies in a product-driven environment, increasing overall system reliability by 40%",
+        "Built business intelligence pipelines for analytics processing, implementing AI-powered visualization tools and OOP design patterns for modular code",
+        "Created comprehensive test cases for information systems components, ensuring accessibility and EEO compliance in user interfaces",
+        "Implemented CI/CD pipelines for automated warehouse management system testing in a collaborative organization, achieving 99.9% deployment success rates."
+      ]
+    },
+    {
+      "QA Intern | Medha International": [
+        "Developed test automation framework using Python and OOP principles for business management system validation in an agile environment",
+        "Built performance testing tools to analyze systems under high load conditions, implementing Slack notifications for real-time alerts",
+        "Established streamlined bug reporting workflows to identify software design issues, improving organizational communication",
+        "Created data analysis scripts using Python to optimize materials management systems and identify business process improvements."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "G-Community: Business Networking Platform for College Entrepreneurs": [
+        "Architected and developed a reusable backend infrastructure for business management platform supporting 15,000+ active users",
+        "Engineered a robust real-time communication system implementing MySQL and database queries for user identity management",
+        "Integrated with Slack for notifications and business systems to create seamless information flow between sales and operations."
+      ]
+    },
+    {
+      "Dermatological Diagnostics: Deep Learning Framework": [
+        "Engineered a CNN-based automated system for classifying nine skin pathologies, creating a distributed architecture that processed 1.2TB of medical images",
+        "Implemented distributed training architecture on Amazon Web Services to process large medical datasets, reducing training time by 65%",
+        "Achieved 85% diagnostic accuracy with optimized model architecture that reduced inference time by 72% for real-time customer applications",
+        "Designed fault-tolerant distributed storage solutions that maintained 99.9% data integrity while meeting HIPAA security requirements."
+      ]},
+      {
+      "SAAS Automation Builder | Personal Project": [
+        "Achieved 95% test coverage through systematic functional, integration, and performance testing methodologies",
+        "Implemented testing frameworks that simulated high-volume API interactions to identify and resolve performance bottlenecks",
+        "Utilized Agile methodologies to manage project development while maintaining high standards for code quality and test."
+      ]}
+      
+      ],
+  "skills":[
+    "**Programming Languages:** Java, Python, C/C++, JavaScript, R, Golang",
+    "**Frontend:** React.JS, Angular, NextJS, TypeScript, HTML, CSS, D3.js, User Interface Design, Usability Testing",
+    "**Backend:** Node.JS, Flask, Springboot, PHP, REST API Design, GraphQL, Database Management",
+    "**DevOps:** Git, Docker, Jenkins, CI/CD, GitHub Actions, Process Automation, AWS S3 "
+    "**Cloud & Infrastructure:** Amazon Web Services, Distributed storage, AWS S3, Security implementations, Containerization",
+    "**Database Systems:** PostgreSQL, MySQL, Oracle, SQL Server, NeonDB,  Relational databases, Distributed query systems",
+    "**Operating Systems & Working Environment:** Windows, Linux, Ubuntu",
+    "**AI & ML:** Experience with Machine Learning concepts, Computer Graphics integration, Data Flow visualization, Computer Vision applications, Image Analysis algorithms, AI-powered imaging solutions",
+    "**Additional Skills:** Data mining, Customer-focused UX design, Complexity analysis, Optimization"
+    
+  ]
+  }
+    software_QA_resume = {
+  "experience": [
+    {
+      "Software Developer | University of Florida | Nov, 2024 - Present": [
+        "Architected real-time data visualization dashboards using React.JS with D3.js integration, implementing WebSocket for live data flow between frontend and backend systems",
+        "Designed and optimized high-throughput Flask REST APIs handling 50k+ transactions/sec, implementing Redis caching and database management techniques to reduce latency by 40% ",
+        "Developed reusable backend services implementing agile methodologies for data protection and user identity management in a product-driven environment",
+        "Created SQL Server and Oracle database integration tests using SQL that verified data synchronization between multiple systems, ensuring consistent information availability."
+      ]
+    },
+    {
+      "Full Stack Trainer| Elite Solutions | Jan, 2024 - May, 2024": [
+        "Educated 5000+ students on full stack development including React.JS, Node.JS, and data visualization techniques, achieving a 95% course completion rate ",
+        "Designed comprehensive avatar-based interactive learning platform, combining AI and machine learning concepts with frontend development principles ",
+        "Developed 100+ project-based training modules focusing on user-generated content systems and real-time data flow visualization. "
+      ]
+    },
+    {
+      "Software Engineer Intern | AlcoveX Product Studio | Jun, 2023 - Nov, 2023": [
+        "Designed and developed backend systems using agile methodologies in a product-driven environment, increasing overall system reliability by 40%",
+        "Built business intelligence pipelines for analytics processing, implementing AI-powered visualization tools and OOP design patterns for modular code",
+        "Created comprehensive test cases for information systems components, ensuring accessibility and EEO compliance in user interfaces",
+        "Implemented CI/CD pipelines for automated warehouse management system testing in a collaborative organization, achieving 99.9% deployment success rates."
+      ]
+    },
+    {
+      "QA Intern | Medha International": [
+        "Developed test automation framework using Python and OOP principles for business management system validation in an agile environment",
+        "Built performance testing tools to analyze systems under high load conditions, implementing Slack notifications for real-time alerts",
+        "Established streamlined bug reporting workflows to identify software design issues, improving organizational communication",
+        "Created data analysis scripts using Python to optimize materials management systems and identify business process improvements."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "G-Community: Business Networking Platform for College Entrepreneurs": [
+        "Architected and developed a reusable backend infrastructure for business management platform supporting 15,000+ active users",
+        "Engineered a robust real-time communication system implementing MySQL and database queries for user identity management",
+        "Integrated with Slack for notifications and business systems to create seamless information flow between sales and operations."
+      ]
+    },
+    {
+      "Dermatological Diagnostics: Deep Learning Framework": [
+        "Engineered a CNN-based automated system for classifying nine skin pathologies, creating a distributed architecture that processed 1.2TB of medical images",
+        "Implemented distributed training architecture on Amazon Web Services to process large medical datasets, reducing training time by 65%",
+        "Achieved 85% diagnostic accuracy with optimized model architecture that reduced inference time by 72% for real-time customer applications",
+        "Designed fault-tolerant distributed storage solutions that maintained 99.9% data integrity while meeting HIPAA security requirements."
+      ]},
+      {
+      "SAAS Automation Builder | Personal Project": [
+        "Achieved 95% test coverage through systematic functional, integration, and performance testing methodologies",
+        "Implemented testing frameworks that simulated high-volume API interactions to identify and resolve performance bottlenecks",
+        "Utilized Agile methodologies to manage project development while maintaining high standards for code quality and test."
+      ]}
+      
+      ],
+  "skills":[
+    "**Programming Languages:** Java, Python, C/C++, JavaScript, R, Golang",
+    "**Frontend:** React.JS, Angular, NextJS, TypeScript, HTML, CSS, D3.js, User Interface Design, Usability Testing",
+    "**Backend:** Node.JS, Flask, Springboot, PHP, REST API Design, GraphQL, Database Management",
+    "**DevOps:** Git, Docker, Jenkins, CI/CD, GitHub Actions, Process Automation, AWS S3 "
+    "**Cloud & Infrastructure:** Amazon Web Services, Distributed storage, AWS S3, Security implementations, Containerization",
+    "**Database Systems:** PostgreSQL, MySQL, Oracle, SQL Server, NeonDB,  Relational databases, Distributed query systems",
+    "**Operating Systems & Working Environment:** Windows, Linux, Ubuntu",
+    "**AI & ML:** Experience with Machine Learning concepts, Computer Graphics integration, Data Flow visualization, Computer Vision applications, Image Analysis algorithms, AI-powered imaging solutions",
+    "**Additional Skills:** Data mining, Customer-focused UX design, Complexity analysis, Optimization"
+    
+  ]
+  }
     job_description = st.text_area("Paste job description here", height=150)
-    type_of_role = st.selectbox("Select type of role", ["Software Developer", "Data Science", "Full Stack", "Software Testing"])
+    type_of_role = st.selectbox("Select type of role", ["Software Developer", "Data Science", "Full Stack", "Software Testing","Software QA"])
 
     if uploaded_file :
         try:
@@ -352,7 +545,8 @@ def main():
             if type_of_role == "Software Developer": resume_data = software_dev_resume
             elif type_of_role == "Data Science": resume_data = data_dev_resume
             elif type_of_role == "Full Stack": resume_data = full_stack_resume
-            else : resume_data = software_testing_resume
+            elif type_of_role == "Software Testing": resume_data = software_testing_resume
+            else : resume_data = software_QA_resume
             
             if st.button("Build Resume"):
                 with st.spinner("Processing..."):
