@@ -276,7 +276,7 @@ def process_job_description(resume_json, job_description, model="gpt-4.1-nano"):
 
 # Streamlit App
 def main():
-    st.title("📝 Resume Builder")
+    st.title("📝 Resume Builder2.0")
 
     # Sidebar for API key
     model_option = "gpt-4.1-nano"
